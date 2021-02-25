@@ -12,7 +12,7 @@ public class HelloWorldController {
 	@GetMapping("hello")
 	public ResponseEntity<String> helloWorld() {
 		
-		//Digite -> Hello world !
+		//Digites -> Hello world !
 		return ResponseEntity.ok("Hello world !");
 	}
 	
